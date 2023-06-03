@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>課題「ナンプレ」</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <h1 id="header-title">ナンプレ</h1>
+  <main>
+    <h2></h2>
+    <nav>
+      <li id="easy" class="lis">初級</li>
+      <li id="normal" class="lis">中級</li>
+      <li id="hard" class="lis">上級</li>
+    </nav>
+
+
+    <table class="main"></table>
+    <table class="select"></table>
+    <div class="box">
+      <div class="check" onclick="check()">これで解答</div>
+
+      <div>
+        <img src="eraser.png" alt="消しゴム" remove onclick="remove()">
+      </div>
+    </div>
+
+  </main>
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
