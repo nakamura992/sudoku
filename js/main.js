@@ -177,4 +177,4 @@ class SudokuPuzzle {
   }
 }
 
-new SudokuPuzzle();
+let sudokuPuzzle = new SudokuPuzzle();
