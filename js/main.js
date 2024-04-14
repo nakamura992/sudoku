@@ -1,5 +1,3 @@
-let place;
-
 class SudokuQuestion {
   constructor() {
     /**
